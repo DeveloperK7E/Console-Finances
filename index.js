@@ -103,11 +103,11 @@ for (let i = 0; i < finances.length; i++) {
             netArray.push(change)
             
             if (change > greatest[1]) {
-                greatest = [finances[i][0], finances[i][1]];
+                greatest = [finances[i][0], change];
             
             }
             if (change < least[1]) {
-                least = [finances[i][0], finances[i][1]];
+                least = [finances[i][0], change];
                 
             }
         
