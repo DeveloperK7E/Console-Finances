@@ -137,6 +137,10 @@ console.log("Greatest Decrease: " + least);
 console.log("Average Change: " + average);
 
 
+// using netArray and checking if it's less than finances.length
+console.log(netArray);
+
+
 
 
 
