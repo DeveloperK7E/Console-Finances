@@ -119,7 +119,7 @@ for (let i = 0; i < netArray.length; i++) {
     
 }
 
-average = Math.round((netChange / months) * 100 ) / 100;
+average = Math.round((netChange / netArray.length) * 100 ) / 100;
 
     
 
@@ -135,6 +135,7 @@ console.log ("Total Finances: " + total);
 console.log("Greatest Increase: " + greatest);
 console.log("Greatest Decrease: " + least);
 console.log("Average Change: " + average);
+
 
 
 
